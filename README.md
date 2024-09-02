@@ -1,5 +1,10 @@
+
 Ros2 For Unity
 ===============
+
+> [!NOTE]  
+> This project is officially supported for [AWSIM](https://github.com/tier4/AWSIM) users of Autoware. However, the Robotec team is unable to provide support and maintain the project for the general
+> community. If you are looking for an alternative to Unity3D, [Open 3D Engine (O3DE)](https://o3de.org/) is a great, open-source and free simulation engine with excellent [ROS 2 integration](https://development--o3deorg.netlify.app/docs/user-guide/interactivity/), which Robotec is actively supporting and developing. 
 
 ROS2 For Unity is a high-performance communication solution to connect Unity3D and ROS2 ecosystem in a ROS2 "native" way. Communication is not bridged as in several other solutions, but instead it uses ROS2 middleware stack (rcl layer and below), which means you can have ROS2 nodes in your simulation.
 Advantages of this module include:

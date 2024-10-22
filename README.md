@@ -22,6 +22,7 @@ Supported ROS2 distributions:
 - Foxy
 - Galactic
 - Humble
+- Iron
 
 Supported Unity3d:
 - 2020+

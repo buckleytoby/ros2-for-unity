@@ -2,7 +2,7 @@ $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 
 if (([string]::IsNullOrEmpty($Env:ROS_DISTRO)))
 {
-    Write-Host "Can't detect ROS2 version. Source your ros2 distro first. Foxy and Galactic are supported." -ForegroundColor Red
+    Write-Host "Can't detect ROS2 version. Source your ros2 distro first. Foxy, Galactic, Humble, and Iron are supported." -ForegroundColor Red
     exit
 }
 
